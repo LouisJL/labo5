@@ -1,0 +1,50 @@
+div:nth-child(odd) {
+    background-color: rgb(247, 173, 198);
+}
+div:nth-child(even) {
+    background-color: rgb(130, 255, 213);
+}
+
+#Grille1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#Grille2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#Grille3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 60px 30px 30px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    grid-gap: 1px;
+}
+
+.borderStyle1 {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.borderStyle2 {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.borderStyle3 {
+    border: 1px solid black;
+    column-gap: 2px;
+    row-gap: 2px;
+    padding: 5px;
+}
